@@ -1,0 +1,18 @@
+@mixin border ($color,$width){
+    border: $width solid $color;
+}
+
+
+@mixin transition ($all :all,$time :.6s,$ease :cubic-bezier(0.29, -0.16, 0.87, 0.65)){
+    transition: $all $time $ease;
+}
+
+
+
+
+
+
+
+
+
+

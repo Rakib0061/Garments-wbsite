@@ -1,0 +1,62 @@
+// *********************************font variable**********************
+
+
+$font-size: (
+    "h1" : 65px,
+    "h2" : 24px,
+    "h3" : 18px,
+    "p"  : 15px,
+  "span" : 40px
+);
+
+$font-weight: (
+    "h1" : 700,
+    "h2" : 400,
+    "h3" : 700,
+    "p"  : 400,
+"nav-p"  : 600
+);
+
+$primary_font: 'Poppins', sans-serif;
+$secendary_font: 'Roboto', sans-serif;
+
+
+
+
+// *********************************color variable**********************
+
+
+$primary_color: #30254f;
+
+$secendary_color: #d4b610;
+
+$default_color: #fff;
+
+$background_color: #f2f2f2;
+
+$navbar_background : linear-gradient(
+    to right,
+    #d4b610 0%,
+    #d4b610 7%,
+    #30254f 7%,
+    #30254f 50%,
+    #fff 50%,
+    #fff 100%
+);
+
+$banner_background : linear-gradient(
+    to right,
+    #30254f 0%,
+    #30254f 50%,
+    #fff 50%,
+    #fff 100%
+);
+
+$review_background : linear-gradient(
+    to right,
+    #d4b610 0%,
+    #d4b610 50%,
+    #30254f 50%,
+    #30254f 100%,
+);
+ 
