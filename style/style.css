@@ -89,6 +89,12 @@ header .navbar {
   background: linear-gradient(to right, #d4b610 0%, #d4b610 7%, #30254f 7%, #30254f 50%, #fff 50%, #fff 100%);
   padding: 15px 0 !important;
 }
+header .navbar .navbar-toggler {
+  border: none;
+}
+header .navbar .navbar-toggler:focus {
+  box-shadow: none;
+}
 header .navbar .nav-link {
   color: #212121;
   font-size: 15px;
@@ -201,7 +207,7 @@ header .navbar .nav-link:hover.nav-link::before {
   padding: 0 10px;
   position: absolute;
   bottom: 0;
-  right: -6%;
+  right: 7%;
   outline: none;
   font-size: 65px;
   font-weight: 700;
@@ -211,7 +217,7 @@ header .navbar .nav-link:hover.nav-link::before {
   background-color: #30254f;
 }
 .banner_area_img #btn2 {
-  right: -85px;
+  right: -7px;
 }
 
 .Hero_area {
