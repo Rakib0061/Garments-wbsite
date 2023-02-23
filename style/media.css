@@ -436,6 +436,10 @@
         max-width: 278px !important; 
     }
 
+    header .navbar {
+        padding: 8px 0  !important;
+    }
+
     .navbar-brand img {
         width: 42px;
     }
@@ -479,6 +483,11 @@
         right: 5%;
         border-radius: 0;
         bottom: 0;
+        background-color: #30254f;
+    }
+
+    .banner_area_img .btn_custom:hover {
+        background-color:#d4b610;
     }
 
     .banner_area_img #btn2 {
@@ -557,6 +566,11 @@
 
     .product_area .product_item .item .item_img img {
         width: 190px;
+    }
+
+    .product_area .product_item .item .item_img .overlay button {
+        font-size: 13px;
+        padding: 5px 22px;
     }
 
     .product_area .product_item .item h2 {
