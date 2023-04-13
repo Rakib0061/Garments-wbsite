@@ -6,6 +6,7 @@ html {
 
 body {
   position: relative;
+  overflow: hidden;
 }
 
 .preeloader {

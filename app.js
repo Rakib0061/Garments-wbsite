@@ -4,8 +4,20 @@ let preeloader = document.querySelector(".preeloader");
 window.addEventListener("load",()=>{
     setTimeout(() => {
     preeloader.style.display = "none";
+    document.body.style.overflow = "auto"
     }, 1000);
 });
+
+// ------------ on refresh scroll top ---------------
+
+if(history.scrollRestoration){
+    history.scrollRestoration = "manual"
+}
+else {
+    window.scrollTo(0,0)
+}
+
+// ------------ on refresh scroll top ---------------
 
 // *****************************preloader************
 
@@ -121,13 +133,9 @@ number.forEach(value =>{
         num++;
         if(num < target){
             value.innerHTML = `${Math.ceil(num + duration)}`
-            console.log(num + duration);
         }
         else if( target === 700 ){
             clearInterval(repeted);
-            console.log("vaijan")
-            console.log(num)
-            console.log(duration)
         }
     }, 1);
 });

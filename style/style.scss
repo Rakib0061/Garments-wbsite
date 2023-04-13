@@ -13,6 +13,7 @@ html {
 
 body {
     position: relative;
+    overflow: hidden;
 }
 
 .preeloader {
@@ -260,7 +261,7 @@ header {
         padding: 0 10px;
         position: absolute;
         bottom: 0;
-        right: 7%;
+        right: 9%;
         outline: none;
         font-size: map-get($font-size, h1);
         font-weight: map-get($font-weight, h1);
